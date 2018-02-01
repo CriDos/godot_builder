@@ -59,4 +59,3 @@ goto main
 
 taskkill /F /IM explorer.exe
 start %WinDir%\explorer.exe
-start %WinDir%\explorer.exe "%~dp0"
