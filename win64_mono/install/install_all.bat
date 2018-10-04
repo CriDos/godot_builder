@@ -1,7 +1,7 @@
 set DIST_DIR=%~dp0/dist
-setx PYTHONHOME "%LOCALAPPDATA%\Programs\Python\Python37"
+setx PYTHONHOME "%LOCALAPPDATA%\Programs\Python\Python36"
 
-%DIST_DIR%/python-3.7.0-amd64-webinstall.exe InstallAllUsers=0 PrependPath=1 Include_test=0
+%DIST_DIR%/python-3.6.6-amd64-webinstall.exe InstallAllUsers=0 PrependPath=1 Include_test=0
 
 call %DIST_DIR%/refresh_env
 start %WinDir%\explorer.exe "%~dp0"
